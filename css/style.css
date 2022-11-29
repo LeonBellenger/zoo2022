@@ -1,9 +1,7 @@
 #container {
     display: grid;
-    width:95%;
+    width:100%;
     height:100vh;
-    gap: 5px;
-    padding: 5px;
     grid-template-areas:
     "hd hd hd"
     "s1 s1 s1"
@@ -21,6 +19,7 @@ header {
     padding: 1%;
     justify-content: center;
     align-items: center;
+    align-content: space-around;
 }
 
 
@@ -32,7 +31,7 @@ header {
 
 #account {
     width: auto;
-    height: 50%;
+    height: 60%;
     margin: 0 auto;
 }
 
@@ -40,18 +39,48 @@ header {
     height: 30%;
     width: auto;
     margin: 0 auto;
-    font-family: Cunia;
+    font-family: 'Alexandria', sans-serif;
     font-size: 20px;
 }
 
 #section_1 {
+    display: grid;
     grid-area: s1;
-    background-color: purple;
+    background-color: #f1f1f1;
+}
+
+#background_1 {
+    width: 100%;
+    height: auto;
+}
+
+#circle_1 {
+    display: inline-block;
+    border-radius: 50%;
+    color: #3d8e29;
+    height: 30px;
+    width: 30px;
 }
 
 #section_2 {
     grid-area: s2;
-    background-color: green;
+    background-color: rgb(255, 255, 255);
+}
+
+#biljetter1 {
+
+}
+
+#biljetter2 {
+
+}
+
+#tider1 {
+
+}
+
+#tider2 {
+    
 }
 
 #section_3 {
